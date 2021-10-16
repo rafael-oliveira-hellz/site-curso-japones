@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+
+/* 
+** Colorização Padrão **
+*/
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* Red Variants*/
+    --red: #FF0000;
+    --redVariant1: #D92332;
+    --redVariant2: #F23D4C;
+    --redVariant3: #D91111;
+    --redShadow: #CC0404;
+    --crimson: #DC143C;
+
+    /* Grey Variants*/
+    --grey: #D1D5DB;
+    --lightGrey1: #F1F1F1;
+    --lightGrey2: #F2F2F2;
+    --darkGrey1: #6B7280;
+    --darkGrey2: #374151;
+
+    /* Yellow Variants*/
+    --yellow: #D9A000;
+    --midYellow: #FFC300;
+    --gold: #FFD700;
+    --trueYellow: #FFFF00;
+
+    /* Pink Variants*/
+    --salmon: #F27781;
+    --deepPink: #FF1493;
+    --hotPink: #FF69B4;
+    --mediumVioletRed: #C71585;
+    --paleVioletRed: #DB7093;
+
+    /* Brown Variants*/
+    --brown: #730202;
+    --darkBrown: #400101;
+    --midBrown: #8C111B;
+    --trueDarkBrown: #330101;
+    --brown2: #4D0202;
+
+    /* Green Variants */
+    --limeGreen: #32CD32;
+    --forestGreen: #228B22;
+    --green: #008000;
+    --darkgreen: #006400;
+
+    /* Orange Variants */
+    --orange: #FFA500;
+    --darkOrange: #FF8C00;
+    --orangeRed: #FF4500;
+
+    /* Blue Variants */
+    --blue: #3944BC;
+    --indigo: #281E5D;
+    --cerulean: #0492C2;
+    --sky: #63C5DA;
+    --navy: #0A1172;
+    --arctic: #82EEFD;
+
+    /* Purple Variants */
+    --purple: #A32CC4;
+    --magenta: #A1045A;
+    --mauve: #7A4988;
+    --violet: #710193;
+    --amethyst: #A45EE5;
+    --lilac: #B65FCF;
+    --lavender: #E39FF6;
+    --orchid: #AF69EF;
+}
+
+.text-japanese-title {
+	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+}
+
+.text-japanese {
+	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+	font-size: 1rem;
+    line-height: 2;
+	text-align: justify;
+}
+
+figure.main-image {
+	img {
+		width: 992px;
+	}
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.dropdown-menu li{ position: relative; 	}
+	.nav-item .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.nav-item .submenu-left{ 
+		right:100%; left:auto;
+	}
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+}	
+/* ============ small devices .end// ============ */
