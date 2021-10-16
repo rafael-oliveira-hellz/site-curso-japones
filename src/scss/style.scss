@@ -74,9 +74,21 @@
 	--orchid: #AF69EF;
 }
 
+// Color modifications on components
+
+// Buttons
+
+div > button > a.nav-link {
+	color: var(--darkGrey2) !important;
+}
+
+// Backgrounds
+
 main>div.bg-crimson {
 	background-color: var(--crimson) !important;
 }
+
+// Texts
 
 .text-japanese-title {
 	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
@@ -89,11 +101,17 @@ main>div.bg-crimson {
 	text-align: justify;
 }
 
+// Images 
+
 figure.main-image {
 	img {
 		width: 992px;
 	}
 }
+
+// MENUS
+
+// Link colouring
 
 ul {
 	li {

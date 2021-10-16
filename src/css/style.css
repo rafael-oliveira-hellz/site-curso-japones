@@ -64,6 +64,10 @@
   --orchid: #AF69EF;
 }
 
+div > button > a.nav-link {
+  color: var(--darkGrey2) !important;
+}
+
 main > div.bg-crimson {
   background-color: var(--crimson) !important;
 }
