@@ -1,0 +1,37 @@
+
+// MENUS
+
+// Link colouring
+
+ul {
+	li {
+
+		ul {
+			li {
+				a {
+					color: var(--darkGrey2) !important;
+				}
+			}
+		}
+
+		a {
+			color: var(--white) !important;
+
+			&:hover {
+				color: var(--crimson) !important;
+			}
+
+			&.active {
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+nav.second-menu > a {
+	
+	&:hover {
+		color: var(--crimson) !important;
+	}
+
+}

@@ -64,14 +64,6 @@
   --orchid: #AF69EF;
 }
 
-div > button > a.nav-link {
-  color: var(--darkGrey2) !important;
-}
-
-main > div.bg-crimson {
-  background-color: var(--crimson) !important;
-}
-
 .text-japanese-title {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
 }
@@ -81,10 +73,6 @@ main > div.bg-crimson {
   font-size: 1rem;
   line-height: 2;
   text-align: justify;
-}
-
-figure.main-image img {
-  width: 992px;
 }
 
 ul li ul li a {
@@ -104,6 +92,10 @@ nav.second-menu > a:hover {
   color: var(--crimson) !important;
 }
 
+figure.main-image img {
+  width: 992px;
+}
+
 ul.sitemap li a {
   color: var(--darkGrey2) !important;
 }
@@ -114,6 +106,14 @@ ul.sitemap li a.active {
   color: var(--darkGrey2) !important;
   background-color: #E9ECEF;
   font-weight: bold;
+}
+
+main > div.bg-crimson {
+  background-color: var(--crimson) !important;
+}
+
+div > button > a.nav-link {
+  color: var(--darkGrey2) !important;
 }
 
 /* ============ desktop view ============ */

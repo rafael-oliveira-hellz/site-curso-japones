@@ -1,0 +1,73 @@
+
+/* 
+** Colorização Padrão **
+*/
+
+:root {
+	--black: #000000;
+	--white: #FFFFFF;
+
+	/* Red Variants*/
+	--red: #FF0000;
+	--redVariant1: #D92332;
+	--redVariant2: #F23D4C;
+	--redVariant3: #D91111;
+	--redShadow: #CC0404;
+	--crimson: #DC143C;
+
+	/* Grey Variants*/
+	--grey: #D1D5DB;
+	--lightGrey1: #F1F1F1;
+	--lightGrey2: #F2F2F2;
+	--darkGrey1: #6B7280;
+	--darkGrey2: #374151;
+
+	/* Yellow Variants*/
+	--yellow: #D9A000;
+	--midYellow: #FFC300;
+	--gold: #FFD700;
+	--trueYellow: #FFFF00;
+
+	/* Pink Variants*/
+	--salmon: #F27781;
+	--deepPink: #FF1493;
+	--hotPink: #FF69B4;
+	--mediumVioletRed: #C71585;
+	--paleVioletRed: #DB7093;
+
+	/* Brown Variants*/
+	--brown: #730202;
+	--darkBrown: #400101;
+	--midBrown: #8C111B;
+	--trueDarkBrown: #330101;
+	--brown2: #4D0202;
+
+	/* Green Variants */
+	--limeGreen: #32CD32;
+	--forestGreen: #228B22;
+	--green: #008000;
+	--darkgreen: #006400;
+
+	/* Orange Variants */
+	--orange: #FFA500;
+	--darkOrange: #FF8C00;
+	--orangeRed: #FF4500;
+
+	/* Blue Variants */
+	--blue: #3944BC;
+	--indigo: #281E5D;
+	--cerulean: #0492C2;
+	--sky: #63C5DA;
+	--navy: #0A1172;
+	--arctic: #82EEFD;
+
+	/* Purple Variants */
+	--purple: #A32CC4;
+	--magenta: #A1045A;
+	--mauve: #7A4988;
+	--violet: #710193;
+	--amethyst: #A45EE5;
+	--lilac: #B65FCF;
+	--lavender: #E39FF6;
+	--orchid: #AF69EF;
+}

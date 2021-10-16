@@ -1,0 +1,18 @@
+
+ul.sitemap {
+	li {
+		a {
+			color: var(--darkGrey2) !important;
+
+			&:hover {
+				color: var(--crimson) !important;
+			}
+
+			&.active {
+				color: var(--darkGrey2) !important;
+				background-color: #E9ECEF;
+				font-weight: bold;
+			}
+		}
+	}
+}
