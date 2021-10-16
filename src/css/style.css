@@ -64,6 +64,10 @@
   --orchid: #AF69EF;
 }
 
+main > div.bg-crimson {
+  background-color: var(--crimson) !important;
+}
+
 .text-japanese-title {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
 }
@@ -77,6 +81,35 @@
 
 figure.main-image img {
   width: 992px;
+}
+
+ul li ul li a {
+  color: var(--darkGrey2) !important;
+}
+ul li a {
+  color: var(--white) !important;
+}
+ul li a:hover {
+  color: var(--crimson) !important;
+}
+ul li a.active {
+  font-weight: bold;
+}
+
+nav.second-menu > a:hover {
+  color: var(--crimson) !important;
+}
+
+ul.sitemap li a {
+  color: var(--darkGrey2) !important;
+}
+ul.sitemap li a:hover {
+  color: var(--crimson) !important;
+}
+ul.sitemap li a.active {
+  color: var(--darkGrey2) !important;
+  background-color: #E9ECEF;
+  font-weight: bold;
 }
 
 /* ============ desktop view ============ */
@@ -98,7 +131,7 @@ figure.main-image img {
   }
 
   .dropdown-menu > li:hover {
-    background-color: #f1f1f1;
+    background-color: var(--lightGrey1);
   }
 
   .dropdown-menu > li:hover > .submenu {
