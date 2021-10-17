@@ -1,0 +1,31 @@
+i {
+    &.material-icons {
+        position: relative;
+        top: 1.1875rem;
+        right: 0.625rem;
+        font-size: 3.5rem;
+    }
+}
+
+button {
+    &.audio {
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
+button {
+    &:hover {
+        color: var(--redVariant2);
+    }
+}
+
+audio {
+    &.audio-player {
+        filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+        width: 25rem;
+        height: 4.6875rem;
+        -webkit-filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    }
+}
