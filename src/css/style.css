@@ -121,6 +121,7 @@ ul li a {
 }
 ul li a:hover {
   color: var(--crimson) !important;
+  font-weight: bold;
 }
 ul li a.active {
   font-weight: bold;
@@ -167,14 +168,14 @@ div > button > a.nav-link {
 .pagination {
   margin-top: 6rem !important;
 }
-
-.page-item.active .page-link {
-  color: var(--crimson) !important;
-  background: var(--active-bg) !important;
-  border: solid 1px var(--grey) !important;
+.pagination .page-link {
+  color: var(--active-bg);
+  background-color: var(--crimson);
 }
-.page-item.active .page-link:hover {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+.pagination .page-link:hover {
+  background-color: rgba(233, 236, 239, 0.6) !important;
+  color: var(--crimson);
+  background-color: var(--active-bg);
 }
 
 i.material-icons {

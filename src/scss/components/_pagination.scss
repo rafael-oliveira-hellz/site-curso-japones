@@ -2,18 +2,16 @@
 
 .pagination {
 	margin-top: 6rem !important;
-}
 
-.page-item {
-	&.active {
-		.page-link {
-			color: var(--crimson) !important;
-			background: var(--active-bg) !important;
-			border: solid 1px var(--grey) !important;
+	.page-link {
+		color: var(--active-bg);
+		background-color: var(--crimson);
 
-			&:hover {
-				background-color: rgba(0, 0, 0, 0.3) !important;
-			}
+		&:hover {
+			background-color: rgba(233, 236, 239, 0.6) !important;
+			color: var(--crimson);
+			background-color: var(--active-bg);
 		}
 	}
+
 }
