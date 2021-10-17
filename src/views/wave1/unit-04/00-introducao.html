@@ -609,13 +609,13 @@
            <nav aria-label="Page navigation">
             <ul class="pagination justify-content-end">
               <li class="page-item disabled">
-                <a class="bg-dark text-white-50 page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                <a class="bg-dark text-white-50 page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
               </li>
               <li class="page-item active"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/00-introducao.html">1</a></li>
               <li class="page-item"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">2</a></li>
               <li class="page-item"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">3</a></li>
               <li class="page-item">
-                <a class="bg-dark page-link" href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">Next</a>
+                <a class="bg-dark page-link" href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">Próxima</a>
               </li>
             </ul>
           </nav>
@@ -628,42 +628,7 @@
 
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // make it as accordion for smaller screens
-            if (window.innerWidth < 992) {
-
-                // close all inner dropdowns when parent is closed
-                document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
-                    everydropdown.addEventListener('hidden.bs.dropdown', function () {
-                        // after dropdown is hidden, then find all submenus
-                        this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
-                            // hide every submenu as well
-                            everysubmenu.style.display = 'none';
-                        });
-                    })
-                });
-
-                document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
-                    element.addEventListener('click', function (e) {
-                        let nextEl = this.nextElementSibling;
-                        if (nextEl && nextEl.classList.contains('submenu')) {
-                            // prevent opening link if link needs to open dropdown
-                            e.preventDefault();
-                            if (nextEl.style.display == 'block') {
-                                nextEl.style.display = 'none';
-                            } else {
-                                nextEl.style.display = 'block';
-                            }
-
-                        }
-                    });
-                })
-            }
-            // end if innerWidth
-        });
-        // DOMContentLoaded  end
-    </script>
+    <script src="/src/js/menu-dropdown.js"></script>
 
 </body>
 

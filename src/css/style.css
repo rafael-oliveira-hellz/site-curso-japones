@@ -164,6 +164,10 @@ div > button > a.nav-link {
   color: var(--darkGrey2) !important;
 }
 
+.pagination {
+  margin-top: 6rem !important;
+}
+
 .page-item.active .page-link {
   color: var(--crimson) !important;
   background: var(--active-bg) !important;
