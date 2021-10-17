@@ -52,3 +52,19 @@ nav.second-menu>a {
 	}
 
 }
+
+// Pagination
+
+.page-item {
+	&.active {
+		.page-link {
+			color: var(--crimson) !important;
+			background: var(--active-bg) !important;
+			border: solid 1px var(--grey) !important;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.3) !important;
+			}
+		}
+	}
+}

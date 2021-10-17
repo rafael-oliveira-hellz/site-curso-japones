@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Rafael O Silva">
+    <meta name="generator" content="Rafael 2.0.0">
+    <title>Home :: Aulas de Japonês</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuDefault">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre as aulas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                            aria-expanded="false">Matéria Introdutória</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="#">Hiragana 01</a></li>
+                            <li><a class="dropdown-item" href="#">Hiragana 02</a></li>
+                            <li><a class="dropdown-item" href="#">Renshuu</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Katakana 01</a></li>
+                            <li><a class="dropdown-item" href="#">Katakana 02</a></li>
+                            <li><a class="dropdown-item" href="#">Renshuu</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown"
+                            aria-expanded="false">Wave 01</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                            <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 01</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown001">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown002">Unidade 02</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown002">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown003">Unidade 03</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown003">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown004">Unidade 04</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown004">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 05</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown005">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revisão 01-05</a></li>
+                            <li><a class="dropdown-item" href="#" id="dropdown006">Unidade 06</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown006">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown007">Unidade 07</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown007">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown008">Unidade 08</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown008">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown009">Unidade 09</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown009">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown010">Unidade 10</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown010">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revisão 06-10</a></li>
+                            <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 11</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown011">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown012">Unidade 12</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown012">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                            aria-expanded="false">Wave 02</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="#" id="dropdown013">Unidade 13</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown013">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown014">Unidade 14</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown014">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown015">Unidade 15</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown015">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revisão 11-15</a></li>
+                            <li><a class="dropdown-item" href="#" id="dropdown016">Unidade 16</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown016">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown017">Unidade 17</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown017">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown018">Unidade 18</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown018">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown019">Unidade 19</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown019">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown020">Unidade 20</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown020">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revisão 16-20</a></li>
+                            <li><a class="dropdown-item" href="#" id="dropdown021">Unidade 21</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown021">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown022">Unidade 22</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown022">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown023">Unidade 23</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown023">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#" id="dropdown024">Unidade 24</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown024">
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
+                                    <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
+                                    <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
+                                    <li><a href="" class="dropdown-item">#09 - らくらく文法2</a></li>
+                                    <li><a href="" class="dropdown-item">#10 - 漢字マスター5</a></li>
+                                    <li><a href="" class="dropdown-item">#11 - ネイティブ日本語</a></li>
+                                    <li><a href="" class="dropdown-item">#12 - 漢字マスター6</a></li>
+                                    <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Revisão 21-24</a></li>
+                            <li><a class="dropdown-item" href="#">Revisão Geral</a></li>
+                            <li><a class="dropdown-item" href="#">Simulado N1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/src/views/contact/contact.html">Contato</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" id="search_field" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-scroller bg-body shadow-sm px-3">
+        <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
+            <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
+            <a class="nav-link active" aria-current="page" href="/src/index.html">Unidade 04　|　序章　（じょしょう）</a>
+
+            <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
+            <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
+        </nav>
+    </div>
+
+    <main class="container">
+        <div class="d-flex align-items-center p-3 my-3 text-white bg-crimson rounded shadow-sm">
+            <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt=""
+                width="48" height="38">
+            <div class="lh-1">
+                <h1 class="h6 mb-0 text-white lh-1">序章　（じょしょう）</h1>
+                <small>Introdução</small>
+            </div>
+        </div>
+
+        <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <figure class="main-image text-center">
+                <h1 class="pb-2 mb-0 japanese-title">ユニット4　へ　ようこそ！</h1>
+
+                <figcaption style="display: none;">
+                    <h1>Rafael 先生</h1>
+                </figcaption> 
+            </figure>
+
+            <h2 class="title-crimson d-flex pt-3 px-5 text-center">たにん　に　ついて　の　はなし</h2>
+            <h4 class="d-flex px-5 subtitle-japanese">Conversando sobre outras pessoas</h4>
+
+            <p class="d-flex pt-3 px-5 subtitle-japanese">Nesta Unidade:</p>
+            <p class="px-5 text-japanese">Pra começar bem a semana, vamos acompanhar a Sayaka e o Luis numa conversa
+               informal num dia corriqueiro, aqui vamos trabalhar com estruturas simples para
+               perguntar sobre o que a outra pessoa está fazendo, um ótimo jeito de começar uma
+               conversa. Você lembra o que são os pronomes? Aquelas palavras que usamos pra
+               substituir os nomes e as pessoas. Na nossa <strong>Rakuraku Bunpou 1</strong>, vamos estudar
+               alguns pronomes da língua japonesa e suas particularidades, é um conteúdo bem
+               importante para qualquer situação, pois é quase impossível manter um diálogo sem
+               usar essas palavras. Em seguida, na nossa <strong>Hatsuon Taimu</strong>, vamos conhecer alguns
+               sons contraídos e algumas particularidades da pronúncia desses sons. Quando a
+               gente vai a uma festa, sempre procuramos saber quem estará lá pra que a gente
+               não se sinta deslocado, é esse cenário que vamos acompanhar na nossa <strong>Nihongo
+               Kaiwa 2</strong>. Já na nossa segunda aula de <strong>Rakuraku Bunpou 2</strong>, vamos estudar
+               algumas palavrinhas que sempre ouvimos no japonês e que acompanham os nomes
+               e sobrenomes das pessoas: -san, -kun, -chan, etc. Para nossa aula de nativo vamos
+               aprender um pouco sobre algumas expressões para reagir ao que alguém falou
+               para você. E por fim, as aulas de kanji da semana separadas ao final da unidade.</p><br>
+
+           <p class="d-flex pt-3 px-5 subtitle-japanese">Durante esta unidade você vai aprender:</p>
+           <p class="px-5 text-japanese">
+               • Usar pronomes pessoais;<br>
+               • Palavras que se referem a seres vivos no "plural";<br>
+               • Utilizar títulos honoríficos;<br>
+               • Pronunciar sons contraídos;<br>
+               • Explorar kanji sobre gênero, veículos, etc.
+           </p><br>
+
+           <p class="d-flex pt-3 px-5 text-japanese-3xl title-crimson">Palavras-chave</p>
+           <p class="px-5 text-japanese">
+               Pronomes;<br>
+               Sufixo de "plural" para seres vivos;<br>
+               Títulos honoríficos;<br>
+               Sons contraídos;
+           </p>
+
+           <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="bg-dark text-white-50 page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item active"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/00-introducao.html">1</a></li>
+              <li class="page-item"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">2</a></li>
+              <li class="page-item"><a class="bg-dark page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">3</a></li>
+              <li class="page-item">
+                <a class="bg-dark page-link" href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </main>
+
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // make it as accordion for smaller screens
+            if (window.innerWidth < 992) {
+
+                // close all inner dropdowns when parent is closed
+                document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
+                    everydropdown.addEventListener('hidden.bs.dropdown', function () {
+                        // after dropdown is hidden, then find all submenus
+                        this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
+                            // hide every submenu as well
+                            everysubmenu.style.display = 'none';
+                        });
+                    })
+                });
+
+                document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
+                    element.addEventListener('click', function (e) {
+                        let nextEl = this.nextElementSibling;
+                        if (nextEl && nextEl.classList.contains('submenu')) {
+                            // prevent opening link if link needs to open dropdown
+                            e.preventDefault();
+                            if (nextEl.style.display == 'block') {
+                                nextEl.style.display = 'none';
+                            } else {
+                                nextEl.style.display = 'block';
+                            }
+
+                        }
+                    });
+                })
+            }
+            // end if innerWidth
+        });
+        // DOMContentLoaded  end
+    </script>
+
+</body>
+
+</html>

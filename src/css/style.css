@@ -19,6 +19,7 @@
   --active-bg: #E9ECEF;
   --lightGrey1: #F1F1F1;
   --lightGrey2: #F2F2F2;
+  --lightGrey3: #DDDDDD;
   --darkGrey1: #6B7280;
   --darkGrey2: #374151;
   /* Yellow Variants*/
@@ -65,13 +66,43 @@
   --orchid: #AF69EF;
 }
 
-.text-japanese-title {
+body {
+  color: var(--darkGrey2) !important;
+}
+
+main > div > div {
+  font-weight: bold !important;
+}
+
+.japanese-title {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-size: 3rem;
+}
+
+.subtitle-japanese {
+  font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-size: 1.875rem;
+  line-height: 2;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.title-crimson {
+  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  color: var(--crimson);
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+.subtitle-crimson {
+  color: var(--crimson);
+  font-weight: bold;
+  font-size: 1.875rem;
 }
 
 .text-japanese {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 2;
   text-align: justify;
 }
@@ -98,6 +129,15 @@ ul li a.active {
 
 nav.second-menu > a:hover {
   color: var(--crimson) !important;
+}
+
+.page-item.active .page-link {
+  color: var(--crimson) !important;
+  background: var(--active-bg) !important;
+  border: solid 1px var(--grey) !important;
+}
+.page-item.active .page-link:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 figure.main-image img {
