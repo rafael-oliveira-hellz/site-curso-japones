@@ -16,6 +16,7 @@
   --crimson: #DC143C;
   /* Grey Variants*/
   --grey: #D1D5DB;
+  --active-bg: #E9ECEF;
   --lightGrey1: #F1F1F1;
   --lightGrey2: #F2F2F2;
   --darkGrey1: #6B7280;
@@ -78,6 +79,12 @@
 ul li ul li a {
   color: var(--darkGrey2) !important;
 }
+ul li ul li a.active, ul li ul li a:focus {
+  background-color: var(--active-bg) !important;
+}
+ul li ul li ul li a.active, ul li ul li ul li a:focus {
+  background-color: var(--active-bg) !important;
+}
 ul li a {
   color: var(--white) !important;
 }
@@ -86,6 +93,7 @@ ul li a:hover {
 }
 ul li a.active {
   font-weight: bold;
+  background-color: transparent;
 }
 
 nav.second-menu > a:hover {
@@ -96,6 +104,11 @@ figure.main-image img {
   width: 992px;
 }
 
+.active {
+  background-color: var(--active-bg);
+  color: var(--crimson) !important;
+}
+
 ul.sitemap li a {
   color: var(--darkGrey2) !important;
 }
@@ -103,8 +116,8 @@ ul.sitemap li a:hover {
   color: var(--crimson) !important;
 }
 ul.sitemap li a.active {
-  color: var(--darkGrey2) !important;
-  background-color: #E9ECEF;
+  color: var(--crimson) !important;
+  background-color: var(--active-bg);
   font-weight: bold;
 }
 
