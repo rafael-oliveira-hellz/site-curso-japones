@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Rafael O Silva">
     <meta name="generator" content="Rafael 2.0.0">
-    <title>Site Map :: Aulas de Japonês</title>
+    <title>Home :: Aulas de Japonês</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/">
 
@@ -24,6 +24,11 @@
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -46,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/src/index.html">日本語クラス</a>
+            <a class="navbar-brand" href="/src/index.html">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -133,15 +138,19 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="/src/views/wave1/unit-04/00-introducao.html" id="dropdown004">Unidade 04</a>
+                            <li><a class="dropdown-item active" href="/src/views/wave1/unit-04/00-introducao.html"
+                                    id="dropdown004">Unidade 04</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown004">
-                                    <li><a href="/src/views/wave1/unit-04/00-introducao.html" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
-                                    <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html" class="dropdown-item">#01 - 日本語会話1</a></li>
-                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/00-introducao.html" class="dropdown-item">#00
+                                            - 序章 (じょしょう)</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html"
+                                            class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html"
+                                            class="dropdown-item">#02 - 漢字マスター1</a></li>
                                     <li><a href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html"
-                                        class="dropdown-item">#03 - らくらく文法1</a></li>
-                                <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
-                                        class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                            class="dropdown-item active">#03 - らくらく文法1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
+                                            class="dropdown-item">#04 - 漢字マスター2</a></li>
                                     <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
                                     <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
                                     <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
@@ -532,8 +541,10 @@
                         <a class="nav-link" aria-current="page" href="/src/views/contact/contact.html">Contato</a>
                     </li>
                 </ul>
+
                 <form class="d-flex">
-                    <input class="form-control me-2" id="search_field" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" id="search_field" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -543,10 +554,10 @@
     <div class="nav-scroller bg-body shadow-sm px-3">
         <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
             <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
-            <a class="nav-link active" aria-current="page" href="/src/views/home/sitemap.html">Site Map</a>
+            <a class="nav-link active" aria-current="page" href="/src/index.html">Unidade 04　|　日本語会話1　（にほんごかいわ1）</a>
 
-            <span class="d-flex align-items-center text-dark ms-3">Voltar à: </span>
-            <a class="nav-link" href="/src/index.html">Home</a>
+            <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
+            <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
         </nav>
     </div>
 
@@ -555,78 +566,278 @@
             <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt=""
                 width="48" height="38">
             <div class="lh-1">
-                <h1 class="h6 mb-0 text-white lh-1">Aulas de Japonês</h1>
-                <small>Since 2006</small>
+                <h1 class="h6 mb-0 text-white lh-1">日本語会話1　（にほんごかいわ1）</h1>
+                <small>Diálogo em Japonês #01</small>
             </div>
         </div>
 
         <div class="my-3 p-3 bg-body rounded shadow-sm">
-            <figure class="main-image text-center">
-                <h1 class="pb-2 mb-0 text-japanese-title text-uppercase">Site Map</h1>
-            </figure>
+            <h2 class="title-crimson d-flex pt-3 px-5 text-center">なに してる の?</h2>
+            <h4 class="d-flex px-5 subtitle-japanese">Tá fazendo o quê?</h4>
 
-            <ul class="sitemap list-unstyled list-group">
-                <li class="nav-item list-group-item"><a href="/src/index.html" class="nav-link">Home</a>
-                    <ul class="list-unstyled ps-4">
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link sub-active dropdown-item active">Site Map</a></li>
-                    </ul>
+            <p class="px-5 text-japanese">Na nossa conversa, vamos acompanhar dois colegas de escola, num ambiente
+                formal, mas que ao mesmo tempo acaba se tornando nossa segunda casa, a
+                escola! Vamos aproveitar essa oportunidade para conhecer um vocabulário para
+                a gente usar com aqueles chegados mais próximos. <br>
+                Nessa conversa, Sayaka e Luis conversam sobre uma tarefa de casa.</p><br>
+
+            <audio class="ps-5" id="audio-player" controls preload="auto">
+                <source src="https://drive.google.com/uc?export=download&id=1SMhGWP4LTu0rDwsYo3fXwWJ7soL_xhPC"
+                    type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p class="d-flex pt-5 px-5 subtitle-japanese">Walk 'n' Talk</p>
+            <audio class="ps-5" id="audio-player" controls preload="auto">
+                <source src="https://drive.google.com/uc?export=download&id=1iQT2Ga87FkplugWZ9Ypl2_ZgUpx59wBf"
+                    type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <hr class="my-5 dropdown-divider">
+
+            <ol class="ms-5">
+                <li>
+                    <!-- EXEMPLO 1 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">さやかちゃん、</span>
+                    <span class="my-3 text__block-2 tooltip">おはよう。
+                        <span class="tooltiptext">おはよう (ohayō) = bom dia</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_1"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Sayaka,</span>
+                    <span class="my-3 text__underlined_block-2">bom dia.</span>
+                </li> <br><br>
+
+                <li>
+                    <!-- EXEMPLO 2 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">おはよう、
+                        <span class="tooltiptext">おはよう (ohayō) = bom dia</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">ルイスくん。 </span>
+                    <span class="my-3 text__block-3 tooltip">なに
+                        <span class="tooltiptext">なに　(nani) = o que</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">してるの？
+                        <span class="tooltiptext">してるの　(shiteru no) = faz / está fazendo</span>
+                    </span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_2"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Bom dia,</span>
+                    <span class="my-3 text__underlined_block-2">Luiz.</span>
+                    <span class="my-3 text__underlined_block-4">tá fazendo</span>
+                    <span class="my-3 text__underlined_block-3">o quê?</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 3 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">しゅくだい．．．
+                        <span class="tooltiptext">しゅくだい（shukudai） = tarefa de casa</span>
+                    </span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_3"></span></span>
+
+                    <br>
+
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Tarefa de casa...</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 4 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">えー？
+                        <span class="tooltiptext">えー　(Ee) = quee</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">まだ
+                        <span class="tooltiptext">まだ　(mada) = ainda</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">やってないの？
+                        <span class="tooltiptext">やってない　(yatte nai) = (neg.) forma -te do verbo "yaru" - fazer</span>
+                    </span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_4"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Quee?</span>
+                    <span class="my-3 text__underlined_block-3">Não tinha feito</span>
+                    <span class="my-3 text__underlined_block-2">ainda?</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 5 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">きのう、
+                        <span class="tooltiptext">きのう　(kinō) = ontem</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">いろいろ
+                        <span class="tooltiptext">いろいろ 　(iroiro) = várias coisas</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">あって さ。
+                        <span class="tooltiptext">あって　(atte) = forma -te do verbo <strong>aru</strong>-
+                            ser/estar/existir/ter/acontecer <br>
+                            さ　(sa) = forma casual do <strong>よ</strong>, é similar ao <strong>sabe</strong>do Português.
+                        </span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">わすれちゃった。
+                        <span class="tooltiptext">わすれちゃった　(wasurechatta) = acabei esquecendo</span>
+                    </span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_5"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Ontem,</span>
+                    <span class="my-3 text__underlined_block-3">Aconteceram</span>
+                    <span class="my-3 text__underlined_block-2">várias coisas</span>
+                    <span class="my-3 text__underlined_block-3">sabe?</span>
+                    <span class="my-3 text__underlined_block-4">Acabei esquecendo.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 6 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip"> ゲーム してた
+                        <span class="tooltiptext">ゲーム してた　(gēmu shiteta) = estava jogando</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip"> でしょう？
+                        <span class="tooltiptext">でしょう　(deshō) = né? / sabe?</span>
+                    </span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_6"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Tava jogando,</span>
+                    <span class="my-3 text__underlined_block-2">né?</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 7 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">まぁね！
+                        <span class="tooltiptext">まぁね　(mā ne) = é...</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_7"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">É...</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 8 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">しゅくだい
+                        <span class="tooltiptext">しゅくだい　(shukudai) = tarefa de casa</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">は</span>
+                    <span class="my-3 text__block-3 tooltip">今日
+                        <span class="tooltiptext">今日　(kyō) = hoje</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">ださない、
+                        <span class="tooltiptext">しださない　(dasanaito) = se não entregar</span>
+                    </span>
+                    <span class="my-3 text__block-5 tooltip">先生
+                        <span class="tooltiptext">先生　(sensē) = professor</span>
+                    </span>
+                    <span class="my-3 text__block-6 tooltip">おこる
+                        <span class="tooltiptext">おこる　(okuru) = ficar bravo</span>
+                    </span>
+                    <span class="my-3 text__block-7 tooltip">よ。
+                        <span class="tooltiptext">よ　(yo) = informal, é similar ao <strong>sabe</strong>do
+                            Português.</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_8"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-4">Se você não entregar</span>
+                    <span class="my-3 text__underlined_block-1">a tarefa</span>
+                    <span class="my-3 text__underlined_block-3">hoje,</span>
+                    <span class="my-3 text__underlined_block-5">o professor</span>
+                    <span class="my-3 text__underlined_block-6">vai ficar bravo.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 9 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">だから
+                        <span class="tooltiptext">だから　(dakara) = por isso</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">今
+                        <span class="tooltiptext">今　(ima) = agora</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">やってん
+                        <span class="tooltiptext">やってん　(yatten) = contração de <strong>yatte + iru + n</strong> - estar
+                            fazendo</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">じゃん。
+                        <span class="tooltiptext">じゃん　(jan) = contração de <strong>janai</strong> - né?</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_9"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Por isso</span>
+                    <span class="my-3 text__underlined_block-3">que eu tô fazendo</span>
+                    <span class="my-3 text__underlined_block-2">agora,</span>
+                    <span class="my-3 text__underlined_block-4">né!?</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 10 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">そっかー。
+                        <span class="tooltiptext">そっかー　(sokkā) = ah, entendi</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">じゃー、
+                        <span class="tooltiptext">じゃー　(jā) = então</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">がんばって ねー！
+                        <span class="tooltiptext">がんばって ねー　(ganbatte nē) = boa sorte</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0-pd tooltip"><span id="frase_10"></span></span>
+
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Ah, entendi.</span>
+                    <span class="my-3 text__underlined_block-3">Boa sorte,</span>
+                    <span class="my-3 text__underlined_block-2">então.</span>
                 </li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Sobre</a></li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Matéria Introdutória</a>
-                    <ul class="list-unstyled ps-4">
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana 01</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana 02</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana Renshuu</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana 01</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana 02</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana Renshuu</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-group-item">
-                    <a class="nav-link" href="#">Wave 01</a>
-                    <ul class="list-unstyled ps-4">
-                        <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 01</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown002">Unidade 02</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown003">Unidade 03</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown004">Unidade 04</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 05</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown006">Revisão 01-05</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown007">Unidade 06</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown008">Unidade 07</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown009">Unidade 08</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown010">Unidade 09</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 10</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown012">Revisão 06-10</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown013">Unidade 11</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown014">Unidade 12</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Wave 02</a>
-                    <ul class="list-unstyled ps-4">
-                        <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 13</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown002">Unidade 14</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown003">Unidade 15</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown004">Revisão 11-15</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 16</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown006">Unidade 17</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown007">Unidade 18</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown008">Unidade 19</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown009">Unidade 20</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown010">Revisão 16-20</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 21</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown012">Unidade 22</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown013">Unidade 23</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown014">Unidade 24</a></li>
-                    </ul></li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Contato</a></li>
-            </ul>
+            </ol>
+
+            <!-- <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                        <a class="bg-dark page-link" href="/src/views/wave1/unit-04/00-introducao.html" tabindex="-1"
+                            aria-disabled="false">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="bg-dark page-link"
+                            href="/src/views/wave1/unit-04/00-introducao.html">1</a></li>
+                    <li class="page-item active"><a class="bg-dark page-link"
+                            href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html">2</a></li>
+                    <li class="page-item"><a class="bg-dark page-link"
+                            href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">3</a></li>
+                    <li class="page-item">
+                        <a class="bg-dark page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">Próxima</a>
+                    </li>
+                </ul>
+            </nav> -->
+
+            <div class="pagination justify-content-between">
+                <a class="rounded page-link" tabindex="-1" aria-disabled="false"
+                    href="/src/views/wave1/unit-04/00-introducao.html">Anterior</a>
+
+                <a class="rounded page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html">Próxima</a>
+            </div>
         </div>
     </main>
 
@@ -637,6 +848,47 @@
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
     <script src="/src/js/menu-dropdown.js"></script>
+    <script src="/src/js/player.js"></script>
+
+    <script>
+        const audioData = [{
+                url: 'https://drive.google.com/uc?export=download&id=1qXgoFy2p09f4UKpiyOSefGk_vtyJx4Ga',
+                parentId: 'frase_1'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1ZBvj_IWVKRdFhzF2XMydQtwwpg8CC15f',
+                parentId: 'frase_2'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=188OA3SzYkkXBePJkel7YawmipOwtL2Jc',
+                parentId: 'frase_3'
+            },
+            {
+                url: 'https://drive.google.com/uc?export=download&id=1aeY1d44AJnBDEjYftFcMKTsAoK2hYv0r',
+                parentId: 'frase_4'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=13cJ2D3Ac6uMaVNpiOeqJtihhVc0vbpeF',
+                parentId: 'frase_5'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1ctq1vzmiDccVgW1rvjZUWmiNA4Y2I-he',
+                parentId: 'frase_6'
+            },
+            {
+                url: 'https://drive.google.com/uc?export=download&id=1gXnpF2sNUCsSOr5w7lHI8mDF50_pAqlk',
+                parentId: 'frase_7'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1NgKVLCGLanD_2NNzqla9mmiPwjldtX8J',
+                parentId: 'frase_8'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1pHV6eGAxk95T2mpgY3YJ2q455ITwPN9E',
+                parentId: 'frase_9'
+            },
+            {
+                url: 'https://drive.google.com/uc?export=download&id=1DkzVGMjmwo9HcihJWcEGdkM7yQgLEePD',
+                parentId: 'frase_10'
+            }
+        ];
+
+        audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
+    </script>
 
 </body>
 

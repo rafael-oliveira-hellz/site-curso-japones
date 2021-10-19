@@ -100,11 +100,30 @@ main > div > div {
   font-size: 1.875rem;
 }
 
+.kanji-title-crimson {
+  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  color: var(--crimson);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.kanji-subtitle {
+  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
 .text-japanese {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
   font-size: 1.5rem;
   line-height: 2;
   text-align: justify;
+}
+
+.text-crimson {
+  color: var(--crimson);
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 ul li ul li a {

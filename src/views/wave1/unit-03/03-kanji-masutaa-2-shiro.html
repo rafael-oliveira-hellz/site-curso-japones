@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Rafael O Silva">
     <meta name="generator" content="Rafael 2.0.0">
-    <title>Site Map :: Aulas de Japonês</title>
+    <title>Home :: Aulas de Japonês</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/">
 
@@ -24,7 +24,12 @@
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -46,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/src/index.html">日本語クラス</a>
+            <a class="navbar-brand" href="/src/index.html">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -133,15 +138,19 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="/src/views/wave1/unit-04/00-introducao.html" id="dropdown004">Unidade 04</a>
+                            <li><a class="dropdown-item active" href="/src/views/wave1/unit-04/00-introducao.html"
+                                    id="dropdown004">Unidade 04</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown004">
-                                    <li><a href="/src/views/wave1/unit-04/00-introducao.html" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
-                                    <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html" class="dropdown-item">#01 - 日本語会話1</a></li>
-                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html" class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/00-introducao.html" class="dropdown-item">#00
+                                            - 序章 (じょしょう)</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html"
+                                            class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html"
+                                            class="dropdown-item">#02 - 漢字マスター1</a></li>
                                     <li><a href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html"
-                                        class="dropdown-item">#03 - らくらく文法1</a></li>
-                                <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
-                                        class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                            class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
+                                            class="dropdown-item active">#04 - 漢字マスター2</a></li>
                                     <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
                                     <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
                                     <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
@@ -532,8 +541,10 @@
                         <a class="nav-link" aria-current="page" href="/src/views/contact/contact.html">Contato</a>
                     </li>
                 </ul>
+
                 <form class="d-flex">
-                    <input class="form-control me-2" id="search_field" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" id="search_field" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -543,10 +554,11 @@
     <div class="nav-scroller bg-body shadow-sm px-3">
         <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
             <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
-            <a class="nav-link active" aria-current="page" href="/src/views/home/sitemap.html">Site Map</a>
+            <a class="nav-link active" aria-current="page"
+                href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html">漢字マスター2　（かんじマスター2）</a>
 
-            <span class="d-flex align-items-center text-dark ms-3">Voltar à: </span>
-            <a class="nav-link" href="/src/index.html">Home</a>
+            <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
+            <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
         </nav>
     </div>
 
@@ -555,78 +567,88 @@
             <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt=""
                 width="48" height="38">
             <div class="lh-1">
-                <h1 class="h6 mb-0 text-white lh-1">Aulas de Japonês</h1>
-                <small>Since 2006</small>
+                <h1 class="h6 mb-0 text-white lh-1">漢字マスター2　（かんじマスター2）</h1>
+                <small>Kanji Masutaa 2</small>
             </div>
         </div>
 
         <div class="my-3 p-3 bg-body rounded shadow-sm">
-            <figure class="main-image text-center">
-                <h1 class="pb-2 mb-0 text-japanese-title text-uppercase">Site Map</h1>
-            </figure>
 
-            <ul class="sitemap list-unstyled list-group">
-                <li class="nav-item list-group-item"><a href="/src/index.html" class="nav-link">Home</a>
-                    <ul class="list-unstyled ps-4">
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link sub-active dropdown-item active">Site Map</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Sobre</a></li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Matéria Introdutória</a>
-                    <ul class="list-unstyled ps-4">
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana 01</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana 02</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Hiragana Renshuu</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana 01</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana 02</a></li>
-                        <li class="nav-item"><a href="/src/views/home/sitemap.html"
-                                class="nav-link dropdown-item">Katakana Renshuu</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-group-item">
-                    <a class="nav-link" href="#">Wave 01</a>
-                    <ul class="list-unstyled ps-4">
-                        <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 01</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown002">Unidade 02</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown003">Unidade 03</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown004">Unidade 04</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 05</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown006">Revisão 01-05</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown007">Unidade 06</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown008">Unidade 07</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown009">Unidade 08</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown010">Unidade 09</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 10</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown012">Revisão 06-10</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown013">Unidade 11</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown014">Unidade 12</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Wave 02</a>
-                    <ul class="list-unstyled ps-4">
-                        <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 13</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown002">Unidade 14</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown003">Unidade 15</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown004">Revisão 11-15</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 16</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown006">Unidade 17</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown007">Unidade 18</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown008">Unidade 19</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown009">Unidade 20</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown010">Revisão 16-20</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 21</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown012">Unidade 22</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown013">Unidade 23</a></li>
-                        <li><a class="dropdown-item" href="#" id="dropdown014">Unidade 24</a></li>
-                    </ul></li>
-                <li class="nav-item list-group-item"><a href="" class="nav-link">Contato</a></li>
-            </ul>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="px-5 text-japanese">Nesta unidade, focaremos o aprendizado em três kanji como especificado
+                        abaixo:</p><br>
+
+                    <div class="d-flex justify-content-between mx-5">
+                        <div class="d-flex flex-column align-items-center">
+                            <h2 class="kanji-title-crimson pt-3">白</h2>
+                            <h4 class="kanji-subtitle">branco</h4>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <h2 class="kanji-title-crimson pt-3">黒</h2>
+                            <h4 class="kanji-subtitle">preto</h4>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <h2 class="kanji-title-crimson pt-3">赤</h2>
+                            <h4 class="kanji-subtitle">vermelho</h4>
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <h2 class="kanji-title-crimson pt-3">青</h2>
+                            <h4 class="kanji-subtitle">azul</h4>
+                        </div>
+                    </div>
+
+                    <figure class="main-image text-center">
+                        <div class="pagination justify-content-center">
+                            <a class="rounded page-link"
+                                href="/src/views/wave1/unit-04/04-kanji-masutaa-2-kuro.html">Próximo Kanji</a>
+                        </div>
+
+                        <img src="/src/assets/images/shiroi.png" class="rounded img-fluid my-5" alt="Kanji 'Shiro'">
+
+                        <figcaption style="display: none;">
+                            <h1>Rafael 先生</h1>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="subtitle-japanese">白</p>
+                        <p class="text-japanese">しろ</p>
+                        <p class="text-japanese">branco</p>
+                        <p class="text-crimson">Substantivo</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-1">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="subtitle-japanese">⇒</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="subtitle-japanese">白い</p>
+                        <p class="text-japanese">しろい</p>
+                        <p class="text-japanese">branco</p>
+                        <p class="text-crimson">Adjetivo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <span class="text__underlined_block-0-pd"><span id="kanji-shiro"></span></span>
+            </div>
+
+            <div class="pagination justify-content-between">
+                <a class="rounded page-link" tabindex="-1" aria-disabled="false"
+                    href="/src/views/wave1/unit-04/00-introducao.html">Anterior</a>
+
+                <a class="rounded page-link" href="/src/views/wave1/unit-04/05-hatsuon-taimu.html">Próxima</a>
+            </div>
         </div>
     </main>
 
@@ -637,6 +659,17 @@
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
     <script src="/src/js/menu-dropdown.js"></script>
+
+    <script src="/src/js/player.js"></script>
+
+    <script>
+        const audioData = [{
+            url: 'https://drive.google.com/uc?export=download&id=1sVm80UO35doTjBNj0VSyt9tCWtQf-hqg',
+            parentId: 'kanji-shiro'
+        }];
+
+        audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
+    </script>
 
 </body>
 
