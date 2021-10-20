@@ -24,6 +24,12 @@
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <style>
         .bd-placeholder-img {
@@ -549,8 +555,7 @@
     <div class="nav-scroller bg-body shadow-sm px-3">
         <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
             <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
-            <a class="nav-link active" aria-current="page"
-                href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html">漢字マスター1　（かんじマスター1）</a>
+            <a class="nav-link active" aria-current="page" href="/src/index.html">Unidade 04　|　漢字マスター1　（かんじマスター1）</a>
 
             <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
             <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
@@ -576,26 +581,26 @@
 
                     <div class="d-flex justify-content-between mx-5">
                         <div class="d-flex flex-column align-items-center">
-                            <h2 class="kanji-title-crimson pt-3">会</h2>
-                            <h4 class="kanji-subtitle">encontrar</h4>
+                            <h2 class="kanji-title-crimson pt-3">自</h2>
+                            <h4 class="kanji-subtitle">mesmo</h4>
                         </div>
                         <div class="d-flex flex-column align-items-center">
-                            <h2 class="kanji-title-crimson pt-3">社</h2>
-                            <h4 class="kanji-subtitle">santuário</h4>
+                            <h2 class="kanji-title-crimson pt-3">動</h2>
+                            <h4 class="kanji-subtitle">mexer</h4>
                         </div>
                         <div class="d-flex flex-column align-items-center">
-                            <h2 class="kanji-title-crimson pt-3">電</h2>
-                            <h4 class="kanji-subtitle">eletricidade</h4>
+                            <h2 class="kanji-title-crimson pt-3">車</h2>
+                            <h4 class="kanji-subtitle">carro</h4>
                         </div>
                     </div>
 
                     <figure class="main-image text-center">
                         <div class="pagination justify-content-center">
                             <a class="rounded page-link"
-                                href="/src/views/wave1/unit-04/02-kanji-masutaa-1-sha.html">Próximo Kanji</a>
+                                href="/src/views/wave1/unit-04/04-kanji-masutaa-2-dou.html">Kanji Anterior</a>
                         </div>
 
-                        <img src="/src/assets/images/au.png" class="rounded img-fluid my-5" alt="Kanji 'Au'">
+                        <img src="/src/assets/images/sha2.png" class="rounded img-fluid my-5" alt="Kanji 'Sha'">
 
                         <figcaption style="display: none;">
                             <h1>Rafael 先生</h1>
@@ -603,12 +608,16 @@
                     </figure>
                 </div>
 
+                <div class="d-flex justify-content-center mb-5"> 
+                    <span class="text__underlined_block-0-pd"><span id="kanji-kuruma"></span></span>
+                </div>
+
                 <div class="d-flex justify-content-center">
                     <div class="col-sm-3">
                         <div class="d-flex flex-column align-items-center">
-                            <p class="kanji-title">会</p>
-                            <p class="kanji-subtitle">かい</p>
-                            <p class="text-japanese">encontro, reunião, grupo</p>
+                            <p class="kanji-title">車</p>
+                            <p class="kanji-subtitle">しゃ | くるま</p>
+                            <p class="text-japanese">carro, veículo</p>
                         </div>
                     </div>
 
@@ -620,24 +629,20 @@
 
                     <div class="col-sm-3">
                         <div class="d-flex flex-column align-items-center">
-                            <p class="kanji-title">会う</p>
-                            <p class="kanji-subtitle">かう</p>
-                            <p class="text-japanese">encontrar-se</p><br>
-
-                            <p class="kanji-title">会社</p>
-                            <p class="kanji-subtitle">かいしゃ</p>
-                            <p class="text-japanese">empresa</p>
+                            <p class="kanji-title">自動車</p>
+                            <p class="kanji-subtitle">じどうしゃ</p>
+                            <p class="text-japanese">automóvel</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="pagination justify-content-between">
-                    <a class="rounded page-link" tabindex="-1" aria-disabled="false"
-                        href="/src/views/wave1/unit-04/00-introducao.html">Anterior</a>
+            <div class="pagination justify-content-between">
+                <a class="rounded page-link" tabindex="-1" aria-disabled="false"
+                    href="/src/views/wave1/unit-04/00-introducao.html">Anterior</a>
 
-                    <a class="rounded page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">Próxima</a>
-                </div>
+                <a class="rounded page-link" href="/src/views/wave1/unit-04/02-kanji-masutaa-1.html">Próxima</a>
             </div>
+        </div>
     </main>
 
     <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"
@@ -647,6 +652,17 @@
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
     <script src="/src/js/menu-dropdown.js"></script>
+
+    <script src="/src/js/player.js"></script>
+
+    <script>
+        const audioData = [{
+            url: 'https://drive.google.com/uc?export=download&id=15JBTgK1VtGqknAOpvlr62vQ__MW6WuDw',
+            parentId: 'kanji-kuruma'
+        }];
+
+        audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
+    </script>
 
 </body>
 

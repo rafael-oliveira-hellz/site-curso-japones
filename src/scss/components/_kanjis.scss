@@ -1,0 +1,25 @@
+.kanji-title-crimson {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    color: var(--crimson);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.kanji-title {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.kanji-subtitle {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.row-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}

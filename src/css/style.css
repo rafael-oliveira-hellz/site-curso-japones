@@ -88,7 +88,7 @@ main > div > div {
 }
 
 .title-crimson {
-  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
   color: var(--crimson);
   font-weight: bold;
   font-size: 2.25rem;
@@ -98,19 +98,6 @@ main > div > div {
   color: var(--crimson);
   font-weight: bold;
   font-size: 1.875rem;
-}
-
-.kanji-title-crimson {
-  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
-  color: var(--crimson);
-  font-weight: bold;
-  font-size: 3rem;
-}
-
-.kanji-subtitle {
-  font-family: "Kaisei Tokumin", "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
-  font-weight: bold;
-  font-size: 2.25rem;
 }
 
 .text-japanese {
@@ -451,6 +438,32 @@ audio.audio-player {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.kanji-title-crimson {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  color: var(--crimson);
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.kanji-title {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.kanji-subtitle {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+.row-divider {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 /* ============ desktop view ============ */
