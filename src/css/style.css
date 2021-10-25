@@ -110,6 +110,7 @@ main > div > div {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
   font-size: 1.5rem;
   line-height: 2;
+  font-weight: normal !important;
   text-align: justify;
 }
 
@@ -117,6 +118,14 @@ main > div > div {
   color: var(--crimson);
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+ol {
+  font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: bold;
+  text-align: justify;
 }
 
 ul li ul li a {
@@ -259,7 +268,7 @@ audio.audio-player {
 
 .text__block-5 {
   padding: 0.625rem !important;
-  background-color: var(--forestGreen);
+  background-color: var(--limeGreen);
   color: var(--darkGrey2);
   font-size: 1.35rem;
   margin-right: 5px;
@@ -356,7 +365,7 @@ audio.audio-player {
 
 .text__underlined_block-5 {
   padding: 0.625rem 0.625rem 0.25rem 0.625rem !important;
-  border-bottom: 0.3125rem solid var(--forestGreen);
+  border-bottom: 0.3125rem solid var(--limeGreen);
   color: var(--darkGrey2);
   font-size: 1.35rem;
   margin-right: 5px;

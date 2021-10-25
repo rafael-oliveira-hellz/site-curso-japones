@@ -4,7 +4,7 @@ body {
 	color: var(--darkGrey2) !important;
 }
 
-main > div > div {
+main>div>div {
 	font-weight: bold !important;
 }
 
@@ -49,6 +49,7 @@ main > div > div {
 	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
 	font-size: 1.5rem;
 	line-height: 2;
+	font-weight: normal !important;
 	text-align: justify;
 }
 
@@ -56,4 +57,12 @@ main > div > div {
 	color: var(--crimson);
 	font-weight: bold;
 	font-size: 1.5rem;
+}
+
+ol {
+	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+	font-size: 1.5rem;
+	line-height: 2;
+	font-weight: bold;
+	text-align: justify;
 }
