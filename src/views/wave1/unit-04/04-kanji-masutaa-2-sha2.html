@@ -608,8 +608,11 @@
                     </figure>
                 </div>
 
+                <div class="d-flex justify-content-center"> 
+                    <span class="text__underlined_block-0-pd ms-5">くるま　⇒　<span id="kanji-kuruma"></span></span>
+                </div>
                 <div class="d-flex justify-content-center mb-5"> 
-                    <span class="text__underlined_block-0-pd"><span id="kanji-kuruma"></span></span>
+                    <span class="text__underlined_block-0-pd">じどうしゃ　⇒　<span id="kanji-dou"></span></span>
                 </div>
 
                 <div class="d-flex justify-content-center">
@@ -638,9 +641,9 @@
 
             <div class="pagination justify-content-between">
                 <a class="rounded page-link" tabindex="-1" aria-disabled="false"
-                    href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html">Anterior</a>
-
-                <a class="rounded page-link" href="/src/views/wave1/unit-04/05-hatsuon-taimu.html">Próxima</a>
+                        href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html">Rakuraku Bunpou</a>
+    
+                    <a class="rounded page-link" href="/src/views/wave1/unit-04/05-hatsuon-taimu.html">Hatsuon Taimu</a>
             </div>
         </div>
     </main>
@@ -659,6 +662,10 @@
         const audioData = [{
             url: 'https://drive.google.com/uc?export=download&id=15JBTgK1VtGqknAOpvlr62vQ__MW6WuDw',
             parentId: 'kanji-kuruma'
+        },
+        {
+            url: 'https://drive.google.com/uc?export=download&id=1l3AVymJtnJKIgU-y-OpWaL2UL1FaOKpF',
+            parentId: 'kanji-dou'
         }];
 
         audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
