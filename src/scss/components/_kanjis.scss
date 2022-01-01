@@ -5,6 +5,18 @@
     font-size: 5rem;
 }
 
+.kanji-emphasis {
+    color: var(--crimson);
+    font-weight: bold;
+}
+
+.transparent {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    font-weight: bold;
+    font-size: 5rem;
+    color: transparent;
+}
+
 .kanji-title {
     font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
     font-weight: bold;
@@ -22,4 +34,24 @@
     margin: 0.5rem 0;
     overflow: hidden;
     border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.current--kanji {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    color: #FFF;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 22px var(--crimson);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.current--kanji-subtitle {
+    font-family: 'Noto Serif JP', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #FFF;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 22px var(--crimson);
 }

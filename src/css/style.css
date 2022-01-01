@@ -92,6 +92,7 @@ main > div > div {
   line-height: 2;
   text-align: justify;
   font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .title-crimson {
@@ -105,6 +106,11 @@ main > div > div {
   color: var(--crimson);
   font-weight: bold;
   font-size: 1.875rem;
+}
+
+p.subtitle {
+  font-size: larger;
+  margin: 0;
 }
 
 .text-japanese {
@@ -192,6 +198,16 @@ ol {
     font-size: 1.375rem;
   }
 }
+.btn-outline-success {
+  color: var(--crimson);
+  border-color: var(--crimson);
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: var(--crimson);
+  border-color: var(--crimson);
+}
+
 ul li ul li a {
   color: var(--darkGrey2) !important;
 }
@@ -253,9 +269,14 @@ div > button > a.nav-link {
 .pagination {
   margin-top: 6rem !important;
 }
+.pagination .page-item.active .page-link {
+  border-color: var(--crimson);
+}
 .pagination .page-link {
   color: var(--active-bg);
   background-color: var(--crimson);
+  padding: 16px;
+  font-size: 1.3125rem;
 }
 .pagination .page-link:hover {
   background-color: rgba(233, 236, 239, 0.6) !important;
@@ -526,6 +547,13 @@ audio.audio-player {
   font-size: 5rem;
 }
 
+.transparent {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-weight: bold;
+  font-size: 5rem;
+  color: transparent;
+}
+
 .kanji-title {
   font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
   font-weight: bold;
@@ -543,6 +571,22 @@ audio.audio-player {
   margin: 0.5rem 0;
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.current--kanji {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  color: #FFF;
+  text-shadow: 0 0 7px #fff, 0 0 22px var(--crimson);
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.current--kanji-subtitle {
+  font-family: "Noto Serif JP", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #FFF;
+  text-shadow: 0 0 7px #fff, 0 0 22px var(--crimson);
 }
 
 /* ============ desktop view ============ */

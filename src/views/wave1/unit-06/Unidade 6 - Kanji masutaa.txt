@@ -1,0 +1,196 @@
+como que cada unidade de kanji deverá ser chamada....
+
+(eu sempre uso o nome do kanji que aparece na apostila como índice para o nome do arquivo da unidade de kanji)
+
+
+1: kanji-masutaa-1-asa
+
+朝 
+あさ　｜　ちょう
+manhã
+
+⇒
+
+朝食
+ちょうしょく
+café da manhã
+
+2: kanji-masutaa-1-hiru
+
+昼
+ひる　｜　ちゅう
+tarde
+
+⇒
+
+昼食
+ちゅうしょく
+almoço
+
+3: kanji-masutaa-1-yoru
+
+夜
+よる　｜　や
+noite
+
+⇒
+
+夜食
+やしょく
+lanchinho da noite
+
+****************************************************
+
+1: kanji-masutaa-2-yama
+
+山
+やま
+montanha
+
+2: kanji-masutaa-2-ta
+田
+た
+campo de arroz / arrozal
+
+exemplo com a combinação dos 2
+
+山田
+やまだ
+Yamada
+
+****************************************************
+
+1: kanji-masutaa-3-uru
+
+売る
+うる
+vender
+
+⇒
+
+売ります
+うります
+(formal) vender
+
+2: kanji-masutaa-3-kau
+
+買う
+かう
+comprar
+
+⇒
+
+買います
+かいます
+(formal) comprar
+
+****************************************************
+
+1: kanji-masutaa-4-na
+
+名
+な　｜　めい
+nome
+
+⇒
+
+君の名は
+きみのなは
+seu nome
+
+名前
+なまえ
+nome
+
+名刺
+めいし
+cartão de visita
+
+2: kanji-masutaa-4-go
+
+語
+ご　｜　かた
+idioma, palavra
+
+⇒
+
+日本語
+にほんご
+Língua japonesa
+
+語る
+かたる
+contar, falar
+
+****************************************************
+
+1: kanji-masutaa-5-soto
+
+外
+そと
+fora
+
+⇒
+
+私　は　家　の　<span class="kanji-emphasis">外</span>　に　います。
+わたし　は　いえ　の　<span class="kanji-emphasis">そと</span>　に　います。
+estou do <span class="kanji-emphasis">lado de fora</span> da casa
+
+
+2: kanji-masutaa-5-ookii
+
+大きい
+おおきい
+grande
+
+⇒
+
+その　男の子　は　大きい　です。
+その　おとこのこ　は　おおきい　です。
+O menino é grande.
+
+
+3: kanji-masutaa-5-chiisai
+
+小さい
+ちいさい
+pequeno
+
+⇒
+
+その　女の子　は　小さい　です。
+その　おんなのこ　は　ちいさい　です。
+A menina é pequena.
+
+****************************************************
+
+1: kanji-masutaa-6-han
+
+半
+はん
+meio, metade
+
+Obs.: O kanji "半" não tem significado sozinho, ele não pode ser usado só.
+
+⇒
+
+2時半
+にじはん
+2 e meia, 2h30m
+
+
+2: kanji-masutaa-6-kan
+
+間
+かん
+expressa a ideia de "tempo"
+
+⇒
+
+時間
+じかん
+tempo
+
+２時間
+にじかん
+por duas horas (duração)

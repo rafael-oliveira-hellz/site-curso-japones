@@ -1,5 +1,18 @@
 // MENUS
 
+// Search button 
+
+.btn-outline-success {
+	color: var(--crimson);
+	border-color: var(--crimson);
+
+	&:hover {
+		color: #fff;
+		background-color: var(--crimson);
+		border-color: var(--crimson);
+	}
+}
+
 // Link colouring
 
 ul {

@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.css">
 
     <!-- Favicons -->
@@ -24,6 +24,11 @@
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
     <meta name="theme-color" content="#7952b3">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -46,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
+            <a class="navbar-brand" href="/src/index.html">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,7 +60,7 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarDefault">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuDefault">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sobre as aulas</a>
@@ -76,7 +81,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="dropdown02" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown"
                             aria-expanded="false">Wave 01</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown02">
                             <li><a class="dropdown-item" href="#" id="dropdown001">Unidade 01</a>
@@ -140,9 +145,12 @@
                                             - 序章 (じょしょう)</a></li>
                                     <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html"
                                             class="dropdown-item">#01 - 日本語会話1</a></li>
-                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
-                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
-                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html"
+                                            class="dropdown-item">#02 - 漢字マスター1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html"
+                                            class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
+                                            class="dropdown-item">#04 - 漢字マスター2</a></li>
                                     <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
                                     <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
                                     <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
@@ -154,16 +162,14 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item active" href="./00-introducao.html" id="dropdown005">Unidade
-                                    05</a>
+                            <li><a class="dropdown-item active" href="#" id="dropdown005">Unidade 05</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown005">
-                                    <li><a href="./00-introducao.html" class="dropdown-item active">#00 - 序章 (じょしょう)</a>
-                                    </li>
-                                    <li><a href="./01-nihongo-kaiwa-1.html" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
                                     <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
                                     <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
                                     <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
-                                    <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
+                                    <li><a href="" class="dropdown-item active">#05 - 発音タイム</a></li>
                                     <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
                                     <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
                                     <li><a href="" class="dropdown-item">#08 - 漢字マスター4</a></li>
@@ -548,11 +554,11 @@
     <div class="nav-scroller bg-body shadow-sm px-3">
         <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
             <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
-            <a class="nav-link active" aria-current="page" href="/views/wave1/unit-05/00-introducao.html">Unidade
-                05　|　序章　（じょしょう）</a>
+            <a class="nav-link active" aria-current="page" href="./05-hatsuon-taimu.html">Unidade
+                04　|　発音タイム　（はつおんタイム）</a>
 
             <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
-            <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
+            <a class="nav-link" href="../../home/sitemap.html">Site Map</a>
         </nav>
     </div>
 
@@ -561,70 +567,184 @@
             <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt=""
                 width="68" height="58">
             <div class="lh-1">
-                <h1 class="h3 mb-0 text-white lh-1 mb-2">序章　（じょしょう）</h1>
-                <p class="subtitle">Introdução</p>
+                <h1 class="h3 mb-2 text-white lh-1">発音タイム　（はつおんタイム）</h1>
+                <p class="subtitle">Hora da Pronúncia</p>
             </div>
         </div>
 
         <div class="my-3 p-3 bg-body rounded shadow-sm">
-            <figure class="main-image text-center">
-                <h1 class="pb-2 mb-0 japanese-title">ユニット5　へ　ようこそ！</h1>
+            <h2 class="kanji-title-crimson d-flex pt-3 px-5">そくおん</h2>
+            <h4 class="d-flex px-5 pb-5 kanji-subtitle">Consoantes duplas</h4>
 
-                <figcaption style="display: none;">
-                    <h1>Rafael 先生</h1>
-                </figcaption>
-            </figure>
-
-            <h2 class="title-crimson d-flex pt-3 px-5 text-center">なにか　を　きく　とき</h2>
-            <h4 class="d-flex px-5 subtitle-japanese">Perguntando algo</h4>
-
-            <p class="d-flex pt-3 px-5 subtitle-japanese">Nesta Unidade:</p>
-            <p class="px-5 text-japanese">Você lembra do Felipe? O intercambista que estava no Japão estudando? Ele está
-                de volta, e com ele vamos aprofundar um pouco mais nossos conhecimentos para
-                fazer perguntas. No primeiro diálogo, ele vai procurar saber um pouco mais sobre
-                "Kangeikai" – uma festa de boas-vindas. Ainda falando sobre fazer perguntas, na
-                nossa <strong>Rakuraku Bunpou 1</strong>, vamos conhecer os pronomes interrogativos, aquelas
-                palavras usadas geralmente pra fazer perguntas (quem, quando, o que) e mais
-                uma partícula de pergunta que equivale ao nosso ponto de interrogação. Já na
-                nossa aula de pronúncia, <strong>Hatsuon Taimu</strong> vamos conhecer o som de algumas
-                consoantes duplas. Você já encontrou algum objeto perdido? Na nossa aula de
-                <strong>Nihongo Kaiwa 2</strong>, o Felipe vai encontrar um objeto, o que será? Vamos nos
-                atentar para os pronomes demonstrativos e revisar as perguntas, porque na nossa
-                <strong>Rakuraku Bunpou 2</strong>, vamos aprender um pouco mais sobre os pronomes
-                possessivos, que expressam posse, ou seja, o que é meu, seu, nosso e outros. Já na
-                nossa aula de <strong>Neitibu Nihongo</strong>, vamos aprender formas de dizer a alguém que você
-                não entendeu o que a pessoa disse. E, por fim, temos todos os kanji que você aprendeu
-                ao longo da semana!</p><br>
-
-            <p class="d-flex pt-3 px-5 subtitle-japanese">Durante esta unidade você vai aprender:</p>
             <p class="px-5 text-japanese">
-                • Construir perguntas;<br>
-                • Pronunciar consoantes duplas;<br>
-                • Falar sobre a quem pertence algo;<br>
-                • O que falar quando não entender a frase;<br>
-                • Kanji sobre a família, amigos e verbos.
-            </p><br>
+                Até agora, você revisitou a pronúncia de vários sons especiais da língua japonesa. <br />
+                Nesta aula, você verá o そくおん, que traduzimos para o português
+                como consoantes duplas. Chamamos assim, porque quando escrevemos em
+                nosso alfabeto, dobramos a consoante, então, ela ganha uma "irmã gêmea". <br />
+                Você deve ter visto com os professores durante o minicurso que quando escrevemos em hiragana ou em katakana, representamos essa duplicação com o tsu
+                (hiragana: つ) (katakana: ツ) antes da consoante a ser repetida e em tamanho
+                reduzido. Alguns apelidam de "tsu-chan", mas fique à vontade para chamá-lo
+                como quiser. E como faz para pronunciar isso? Fazemos o seguinte: realizamos
+                uma pequena pausa (tempo de uma sílaba) e depois pronunciamos a consoante
+                duplicada. <br />
+                Portanto, dar essa pausa ou não, pode mudar completamente o significado de
+                uma palavra. Veja alguns exemplos em que a existência ou não da consoante dupla
+                modifica o seu sentido:</p><br>
 
-            <p class="d-flex pt-3 px-5 text-japanese-3xl title-crimson">Palavras-chave</p>
-            <p class="px-5 text-japanese">
-                Partículas;<br>
-                Perguntas; <br>
-                Posse; <br>
-                Consoantes duplas; <br>
-            </p>
+            <hr class="my-5 row-divider">
+
+            <ol class="ms-5">
+                <li>
+                    <!-- EXEMPLO 1 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">この</span>
+                    <span class="my-3 text__block-2 tooltip">おと が
+                        <span class="tooltiptext">おと = som</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">聞こえます
+                        <span class="tooltiptext">聞こえます = escutar (sinônimo: 聞く)</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">か。</span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_1"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-0">Você</span>
+                    <span class="my-3 text__underlined_block-4">está escutando</span>
+                    <span class="my-3 text__underlined_block-3">esse</span>
+                    <span class="my-3 text__underlined_block-3">som</span>
+                    <span class="my-3 text__underlined_block-3">?</span>
+                </li> <br><br>
+
+                <li>
+                    <!-- EXEMPLO 2 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">びよういん
+                        <span class="tooltiptext">びよういん = salão de beleza</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">は
+                        <span class="tooltiptext">は = indica o assunto da frase</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">ひろい
+                        <span class="tooltiptext">ひろい = grande</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">です。</span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_6"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">O salão de beleza</span>
+                    <span class="my-3 text__underlined_block-4">é</span>
+                    <span class="my-3 text__underlined_block-3">grande.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 3 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">私
+                        <span class="tooltiptext">私 = eu</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">は
+                        <span class="tooltiptext">は = indica o assunto da frase</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">りゆう
+                        <span class="tooltiptext">りゆう = motivo</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">が
+                        <span class="tooltiptext">が = indica o que o foco está na ação da frase <br> também usado antes
+                            de <i>imasu</i>, <i>arimasu</i> ou de verbos que expressem sentimentos</span>
+                    </span>
+                    <span class="my-3 text__block-5 tooltip">あります。
+                        <span class="tooltiptext">あります = ter/existir - para objetos inanimados</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_2"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Eu</span>
+                    <span class="my-3 text__underlined_block-5">tenho</span>
+                    <span class="my-3 text__underlined_block-3">um motivo.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 4 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">りゅう
+                        <span class="tooltiptext">りゅう = dragão</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">が
+                        <span class="tooltiptext">が = indica o que o foco está na ação da frase <br> também usado antes
+                            de <i>imasu</i>, <i>arimasu</i> ou de verbos que expressem sentimentos</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">います。
+                        <span class="tooltiptext">います = ter/existir - para seres vivos</span>
+                    </span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_3"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Tem</span>
+                    <span class="my-3 text__underlined_block-3">um dragão.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 5 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">とり
+                        <span class="tooltiptext">とり = pássaro</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">は
+                        <span class="tooltiptext">は = indica o assunto da frase</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">じゆう
+                        <span class="tooltiptext">じゆう = livre</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">です。</span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_4"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">O pássaro</span>
+                    <span class="my-3 text__underlined_block-4">é</span>
+                    <span class="my-3 text__underlined_block-3">livre.</span>
+                </li><br><br>
+
+                <li>
+                    <!-- EXEMPLO 6 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="my-3 text__block-1 tooltip">じゅう
+                        <span class="tooltiptext">じゅう = arma</span>
+                    </span>
+                    <span class="my-3 text__block-2 tooltip">は
+                        <span class="tooltiptext">は = indica o assunto da frase</span>
+                    </span>
+                    <span class="my-3 text__block-3 tooltip">あぶない
+                        <span class="tooltiptext">あぶない = perigoso</span>
+                    </span>
+                    <span class="my-3 text__block-4 tooltip">です。</span>
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_5"></span></span>
+                    <br>
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <span class="my-3 text__underlined_block-1">Armas</span>
+                    <span class="my-3 text__underlined_block-4">são</span>
+                    <span class="my-3 text__underlined_block-3">perigosas.</span>
+                </li>
+            </ol><br>
+
+            <p class="mt-5 px-5 text-japanese">Aqui foram alguns exemplos de palavras com pronúncias muito parecidas,
+                mas
+                o significado é totalmente diferente. Ter palavras com sons parecidos é bastante
+                comum no japonês.</p><br>
 
             <nav aria-label="Page navigation">
                 <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="bg-dark text-white-50 page-link" href="./00-introducao.html" tabindex="-1"
-                            aria-disabled="false">Introdução</a>
-                    </li>
-                    <li class="page-item active"><a class="bg-dark page-link" href="./00-introducao.html">1</a></li>
-                    <li class="page-item"><a class="bg-dark page-link" href="./01-nihongo-kaiwa-1.html">2</a></li>
-                    <li class="page-item"><a class="bg-dark page-link" href="./02-kanji-masutaa-1-watashi.html">3</a>
-                    </li>
                     <li class="page-item">
-                        <a class="bg-dark page-link" href="./01-nihongo-kaiwa-1.html">Nihongo Kaiwa #01</a>
+                        <a class="bg-dark page-link" href="./04-kanji-masutaa-2-chichi.html" tabindex="-1"
+                            aria-disabled="false">Kanji Masutaa #02</a>
+                    </li>
+                    <li class="page-item"><a class="bg-dark page-link" href="./03-rakuraku-bunpou-1.html">4</a>
+                    </li>
+                    <li class="page-item"><a class="bg-dark page-link" href="./04-kanji-masutaa-2-chichi.html">5</a>
+                    </li>
+                    <li class="page-item active"><a class="bg-dark page-link" href="./05-hatsuon-taimu.html">6</a></li>
+                    <li class="page-item">
+                        <a class="bg-dark page-link" href="./06-kanji-masutaa-3-otouto.html">Kanji Masutaa #03</a>
                     </li>
                 </ul>
             </nav>
@@ -637,7 +757,35 @@
 
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
-    <script src="../../../js/menu-dropdown.js"></script>
+    <script src="/src/js/menu-dropdown.js"></script>
+    <script src="/src/js/audio-player/hatsuon-taimu.js"></script>
+
+    <script>
+        const audioData = [{
+                url: 'https://drive.google.com/uc?export=download&id=1axUrRTtVSBxip5b_GzhbFRPyOqaVuWOX',
+                parentId: 'frase_1'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1Q2Hk3wVipFL8ouCawIbPy5RYSmx8xwfI',
+                parentId: 'frase_2'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=10UJNdhYTTG-sRw9y1JIb94yxJczZe7jG',
+                parentId: 'frase_3'
+            },
+            {
+                url: 'https://drive.google.com/uc?export=download&id=1d-M1dkJdPQjDEl53HyYgeePkua0GNobJ',
+                parentId: 'frase_4'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1yGxAMb8OnP7ZoNF8couwZdz9-psV29s-',
+                parentId: 'frase_5'
+            }, {
+                url: 'https://drive.google.com/uc?export=download&id=1ARqv2i-dXwYRfIKey4P3HJ8qsLz-Z7y8',
+                parentId: 'frase_6'
+            }
+        ];
+
+        audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
+    </script>
+
 </body>
 
 </html>

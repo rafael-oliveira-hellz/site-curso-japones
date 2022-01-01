@@ -29,6 +29,7 @@ main>div>div {
 	line-height: 2;
 	text-align: justify;
 	font-weight: bold;
+	margin-bottom: 1em;
 }
 
 .title-crimson {
@@ -42,6 +43,11 @@ main>div>div {
 	color: var(--crimson);
 	font-weight: bold;
 	font-size: 1.875rem;
+}
+
+p.subtitle {
+	font-size: larger;
+	margin: 0;
 }
 
 // Other texts

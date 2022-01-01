@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -46,7 +52,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
+            <a class="navbar-brand" href="/src/index.html">日本評議会</a><!-- Nihon hyōgi-kai - Japanese Council -->
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,7 +61,7 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarDefault">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuDefault">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="/src/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sobre as aulas</a>
@@ -133,16 +139,19 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="/src/views/wave1/unit-04/00-introducao.html"
+                            <li><a class="dropdown-item active" href="/src/views/wave1/unit-04/00-introducao.html"
                                     id="dropdown004">Unidade 04</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown004">
                                     <li><a href="/src/views/wave1/unit-04/00-introducao.html" class="dropdown-item">#00
                                             - 序章 (じょしょう)</a></li>
                                     <li><a href="/src/views/wave1/unit-04/01-nihongo-kaiwa-1.html"
                                             class="dropdown-item">#01 - 日本語会話1</a></li>
-                                    <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
-                                    <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
-                                    <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html"
+                                            class="dropdown-item active">#02 - 漢字マスター1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/03-rakuraku-bunpou-1.html"
+                                            class="dropdown-item">#03 - らくらく文法1</a></li>
+                                    <li><a href="/src/views/wave1/unit-04/04-kanji-masutaa-2-shiro.html"
+                                            class="dropdown-item">#04 - 漢字マスター2</a></li>
                                     <li><a href="" class="dropdown-item">#05 - 発音タイム</a></li>
                                     <li><a href="" class="dropdown-item">#06 - 漢字マスター3</a></li>
                                     <li><a href="" class="dropdown-item">#07 - 日本語会話2</a></li>
@@ -154,12 +163,10 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item active" href="./00-introducao.html" id="dropdown005">Unidade
-                                    05</a>
+                            <li><a class="dropdown-item" href="#" id="dropdown005">Unidade 05</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown005">
-                                    <li><a href="./00-introducao.html" class="dropdown-item active">#00 - 序章 (じょしょう)</a>
-                                    </li>
-                                    <li><a href="./01-nihongo-kaiwa-1.html" class="dropdown-item">#01 - 日本語会話1</a></li>
+                                    <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
+                                    <li><a href="" class="dropdown-item">#01 - 日本語会話1</a></li>
                                     <li><a href="" class="dropdown-item">#02 - 漢字マスター1</a></li>
                                     <li><a href="" class="dropdown-item">#03 - らくらく文法1</a></li>
                                     <li><a href="" class="dropdown-item">#04 - 漢字マスター2</a></li>
@@ -548,8 +555,8 @@
     <div class="nav-scroller bg-body shadow-sm px-3">
         <nav class="second-menu nav nav-underline" aria-label="Secondary navigation">
             <span class="d-flex align-items-center text-dark me-3">Estamos em: </span>
-            <a class="nav-link active" aria-current="page" href="/views/wave1/unit-05/00-introducao.html">Unidade
-                05　|　序章　（じょしょう）</a>
+            <a class="nav-link active" aria-current="page"
+                href="/src/views/wave1/unit-04/02-kanji-masutaa-1-au.html">漢字マスター1　（かんじマスター1）</a>
 
             <span class="d-flex align-items-center text-dark ms-3">Ir para: </span>
             <a class="nav-link" href="/src/views/home/sitemap.html">Site Map</a>
@@ -561,74 +568,108 @@
             <img class="me-3" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-white.svg" alt=""
                 width="68" height="58">
             <div class="lh-1">
-                <h1 class="h3 mb-0 text-white lh-1 mb-2">序章　（じょしょう）</h1>
-                <p class="subtitle">Introdução</p>
+                <h1 class="h3 mb-0 text-white lh-1 mb-2">漢字マスター1　（かんじマスター1）</h1>
+                <p class="subtitle">Kanji Masutaa 1</p>
             </div>
         </div>
 
+        <!-- ========== Start Section ========== -->
+            <!-- 
+                watashi/shi - eu pessoal particular (shinritsukou - escola particular)
+                
+                tomo|yuu - kanji de 'amigo'
+
+                tomodachi - amigo
+
+                yuujou - amizade (jou - sentimento)
+             -->
+        <!-- ========== End Section ========== -->  
+
         <div class="my-3 p-3 bg-body rounded shadow-sm">
-            <figure class="main-image text-center">
-                <h1 class="pb-2 mb-0 japanese-title">ユニット5　へ　ようこそ！</h1>
 
-                <figcaption style="display: none;">
-                    <h1>Rafael 先生</h1>
-                </figcaption>
-            </figure>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="px-5 text-japanese">Nesta unidade, focaremos o aprendizado em três kanji como especificado
+                        abaixo:</p><br>
 
-            <h2 class="title-crimson d-flex pt-3 px-5 text-center">なにか　を　きく　とき</h2>
-            <h4 class="d-flex px-5 subtitle-japanese">Perguntando algo</h4>
+                        <div class="d-flex justify-content-center mx-5">
+                            <div class="d-flex flex-column align-items-center me-5">
+                                <h2 class="kanji-title-crimson pt-3">私</h2>
+                                <h4 class="kanji-subtitle">eu</h4>
+                            </div>
+                            <div class="d-flex flex-column align-items-center me-5">
+                                <h2 class="kanji-title-crimson pt-3">友</h2>
+                                <h4 class="kanji-subtitle">amigo</h4>
+                            </div>
+                        </div>
 
-            <p class="d-flex pt-3 px-5 subtitle-japanese">Nesta Unidade:</p>
-            <p class="px-5 text-japanese">Você lembra do Felipe? O intercambista que estava no Japão estudando? Ele está
-                de volta, e com ele vamos aprofundar um pouco mais nossos conhecimentos para
-                fazer perguntas. No primeiro diálogo, ele vai procurar saber um pouco mais sobre
-                "Kangeikai" – uma festa de boas-vindas. Ainda falando sobre fazer perguntas, na
-                nossa <strong>Rakuraku Bunpou 1</strong>, vamos conhecer os pronomes interrogativos, aquelas
-                palavras usadas geralmente pra fazer perguntas (quem, quando, o que) e mais
-                uma partícula de pergunta que equivale ao nosso ponto de interrogação. Já na
-                nossa aula de pronúncia, <strong>Hatsuon Taimu</strong> vamos conhecer o som de algumas
-                consoantes duplas. Você já encontrou algum objeto perdido? Na nossa aula de
-                <strong>Nihongo Kaiwa 2</strong>, o Felipe vai encontrar um objeto, o que será? Vamos nos
-                atentar para os pronomes demonstrativos e revisar as perguntas, porque na nossa
-                <strong>Rakuraku Bunpou 2</strong>, vamos aprender um pouco mais sobre os pronomes
-                possessivos, que expressam posse, ou seja, o que é meu, seu, nosso e outros. Já na
-                nossa aula de <strong>Neitibu Nihongo</strong>, vamos aprender formas de dizer a alguém que você
-                não entendeu o que a pessoa disse. E, por fim, temos todos os kanji que você aprendeu
-                ao longo da semana!</p><br>
+                    <figure class="main-image text-center">
+                        <div class="pagination justify-content-center">
+                            <a class="rounded page-link"
+                                href="./02-kanji-masutaa-1-watashi.html">Kanji Anterior</a>
+                        </div>
 
-            <p class="d-flex pt-3 px-5 subtitle-japanese">Durante esta unidade você vai aprender:</p>
-            <p class="px-5 text-japanese">
-                • Construir perguntas;<br>
-                • Pronunciar consoantes duplas;<br>
-                • Falar sobre a quem pertence algo;<br>
-                • O que falar quando não entender a frase;<br>
-                • Kanji sobre a família, amigos e verbos.
-            </p><br>
+                        <img src="../../../assets/images/tomo.png" class="rounded img-fluid my-5" alt="Kanji 'Tomo'">
 
-            <p class="d-flex pt-3 px-5 text-japanese-3xl title-crimson">Palavras-chave</p>
-            <p class="px-5 text-japanese">
-                Partículas;<br>
-                Perguntas; <br>
-                Posse; <br>
-                Consoantes duplas; <br>
-            </p>
+                        <figcaption style="display: none;">
+                            <h1>Rafael 先生</h1>
+                        </figcaption>
+                    </figure>
+                </div>
 
-            <nav aria-label="Page navigation">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="bg-dark text-white-50 page-link" href="./00-introducao.html" tabindex="-1"
-                            aria-disabled="false">Introdução</a>
-                    </li>
-                    <li class="page-item active"><a class="bg-dark page-link" href="./00-introducao.html">1</a></li>
-                    <li class="page-item"><a class="bg-dark page-link" href="./01-nihongo-kaiwa-1.html">2</a></li>
-                    <li class="page-item"><a class="bg-dark page-link" href="./02-kanji-masutaa-1-watashi.html">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="bg-dark page-link" href="./01-nihongo-kaiwa-1.html">Nihongo Kaiwa #01</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+                <div class="d-flex justify-content-center mb-5"> 
+                    <span class="text__underlined_block-0-pd"><span id="kanji-tomo"></span></span>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="col-sm-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="kanji-title">友</p>
+                            <p class="kanji-subtitle">とも　｜　ゆう</p>
+                            <p class="text-japanese">amigo</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-1">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="subtitle-japanese">⇒</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="kanji-title">友達</p>
+                            <p class="kanji-subtitle">ともだち</p>
+                            <p class="text-japanese">amigo</p><br>
+
+                            <p class="kanji-title">友情</p>
+                            <p class="kanji-subtitle">ゆうじょう</p>
+                            <p class="text-japanese">amizade</p>
+
+                            <p class="kanji-title">情</p>
+                            <p class="kanji-subtitle">じょう</p>
+                            <p class="text-japanese">sentimento</p>
+                        </div>
+                    </div>
+                </div>
+
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="bg-dark page-link" href="./01-nihongo-kaiwa-1.html" tabindex="-1" aria-disabled="false">Nihongo Kaiwa #01</a>
+                        </li>
+                        <li class="page-item"><a class="bg-dark page-link"
+                                href="./01-nihongo-kaiwa-1.html">2</a></li>
+                        <li class="page-item active"><a class="bg-dark page-link"
+                                href="./02-kanji-masutaa-1-watashi.html">3</a></li>
+                        <li class="page-item"><a class="bg-dark page-link"
+                                href="./03-rakuraku-bunpou-1.html">4</a></li>
+                        <li class="page-item">
+                            <a class="bg-dark page-link" href="./03-rakuraku-bunpou-1.html">Rakuraku Bunpou #01</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
     </main>
 
     <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"
@@ -638,6 +679,20 @@
     <script src="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/offcanvas.js"></script>
 
     <script src="../../../js/menu-dropdown.js"></script>
+
+    <script src="../../../js/audio-player/kanji.js"></script>
+
+    <script>
+        const urlGoogleDrive = 'https://drive.google.com/uc?export=download&id='
+        
+        const audioData = [{
+            url: urlGoogleDrive + '1Vl6PkpNcAjZgkxjEJ8JuxhmnwAwbcd4Y',
+            parentId: 'kanji-tomo'
+        }];
+
+        audioData.forEach(audio => createPlayer(audio.url, document.getElementById(audio.parentId)))
+    </script>
+
 </body>
 
 </html>
