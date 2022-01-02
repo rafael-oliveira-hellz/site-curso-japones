@@ -70,3 +70,7 @@ nav.second-menu>a {
 main {
 	z-index: 999 !important;
 }
+
+ol.renshuu-list li ol li {
+	list-style-type: upper-latin;
+}

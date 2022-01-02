@@ -99,13 +99,13 @@ main > div > div {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
   color: var(--crimson);
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 3rem;
 }
 
 .subtitle-crimson {
   color: var(--crimson);
   font-weight: bold;
-  font-size: 1.875rem;
+  font-size: 2.25rem;
 }
 
 p.subtitle {
@@ -115,7 +115,7 @@ p.subtitle {
 
 .text-japanese {
   font-family: "Noto Serif JP", "Kaisei Tokumin", serif, "MS Mincho", Calibri, sans-serif, -apple-system;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 2;
   font-weight: normal !important;
   text-align: justify;
@@ -124,7 +124,7 @@ p.subtitle {
 .text-crimson {
   color: var(--crimson);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 ol {
@@ -133,6 +133,15 @@ ol {
   line-height: 2;
   font-weight: bold;
   text-align: justify;
+}
+
+ol.crimson li {
+  color: var(--crimson);
+  font-size: 2rem;
+}
+
+ol.crimson li p.text-japanese {
+  color: var(--darkGrey2);
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -237,6 +246,10 @@ main {
   z-index: 999 !important;
 }
 
+ol.renshuu-list li ol li {
+  list-style-type: upper-latin;
+}
+
 figure.main-image img {
   width: 992px;
 }
@@ -289,6 +302,12 @@ i.material-icons {
   top: 1.1875rem;
   right: 0.625rem;
   font-size: 3.5rem;
+}
+i.material-icons.icon-size {
+  font-size: 6.25rem;
+  position: relative;
+  top: 1.1875rem;
+  right: 50px;
 }
 
 button.audio {
@@ -496,6 +515,10 @@ audio.audio-player {
   margin-right: 5px;
 }
 
+.hidden {
+  display: none;
+}
+
 /*
 ** Tooltip **
 */
@@ -545,6 +568,11 @@ audio.audio-player {
   color: var(--crimson);
   font-weight: bold;
   font-size: 5rem;
+}
+
+.kanji-emphasis {
+  color: var(--crimson);
+  font-weight: bold;
 }
 
 .transparent {
