@@ -180,7 +180,15 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Revisão 01-05</a></li>
+                            <li><a class="dropdown-item" href="./00-introducao.html" id="dropdown001_005">Revisão 01-05</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown001_005">
+                                    <li><a href="/views/wave1/rev-01-05/00-introducao.html" class="dropdown-item">#00 - 序章</a></li>
+                                    <li><a href="/views/wave1/rev-01-05/01-rakuraku-bunpou.html" class="dropdown-item">#01 - らくらく文法</a></li>
+                                    <li><a href="/views/wave1/rev-01-05/02-hatsuon-taimu.html" class="dropdown-item">#02 - 発音タイム</a></li>
+                                    <li><a href="/views/wave1/rev-01-05/03-neitibu-nihongo.html" class="dropdown-item">#03 - ネイティブ日本語</a></li>
+                                    <li><a href="/views/wave1/rev-01-05/04-yunitto-no-renshuu.html" class="dropdown-item">#04 - 復讐の練習</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#" id="dropdown006">Unidade 06</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown006">
                                     <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
@@ -271,7 +279,15 @@
                                     <li><a href="" class="dropdown-item">#13 - 練習行きましょう</a></li>
                                 </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Revisão 06-10</a></li>
+                            <li><a class="dropdown-item" href="./00-introducao.html" id="dropdown006_010">Revisão 06-10</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="dropdown006_010">
+                                    <li><a href="/views/wave1/rev-06-10/00-introducao.html" class="dropdown-item">#00 - 序章</a></li>
+                                    <li><a href="/views/wave1/rev-06-10/01-rakuraku-bunpou.html" class="dropdown-item">#01 - らくらく文法</a></li>
+                                    <li><a href="/views/wave1/rev-06-10/02-hatsuon-taimu.html" class="dropdown-item">#02 - 発音タイム</a></li>
+                                    <li><a href="/views/wave1/rev-06-10/03-neitibu-nihongo.html" class="dropdown-item">#03 - ネイティブ日本語</a></li>
+                                    <li><a href="/views/wave1/rev-06-10/04-yunitto-no-renshuu.html" class="dropdown-item">#04 - 復讐の練習</a></li>
+                                </ul>
+                            </li>
                             <li><a class="dropdown-item" href="#" id="dropdown011">Unidade 11</a>
                                 <ul class="submenu dropdown-menu" aria-labelledby="dropdown011">
                                     <li><a href="" class="dropdown-item">#00 - 序章 (じょしょう)</a></li>
@@ -585,7 +601,7 @@
 
             <figure>
                 <div class="boxVideo">
-                    <iframe src="https://www.youtube.com/embed/49l0aOMIDqg" title="ネイティブ日本語5　ー　わからない　とき　の　ひょうげん"
+                    <iframe src="https://www.youtube.com/embed/4ge-yL9zRfk" title="ネイティブ日本語5　ー　わからない　とき　の　ひょうげん"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -722,24 +738,10 @@
                 <p class="title-crimson d-flex pt-3">すみません、もう　いちど　いって　ください。</p><br>
 
                 <span class="subtitle-crimson">Formalidade nível 1</span>
-
                 <li>
                     <!-- EXEMPLO 10 -->
                     <!-- Blocos em Japonês com Tooltip -->
-                    <span class="text-crimson">もう　すこし　ゆっくり　はなして　もらえます　か。</span>
-
-                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_10"></span></span>
-                    <br>
-
-                    <!-- Tradução dos blocos com underline na cor dos blocos -->
-                    <p class="text-japanese">Você pode falar mais devagar?</p>
-                </li><br>
-
-                <span class="subtitle-crimson">Formalidade nível 2</span>
-                <li>
-                    <!-- EXEMPLO 11 -->
-                    <!-- Blocos em Japonês com Tooltip -->
-                    <span class="text-crimson">もう　すこし　ゆっくり　はなして　もらえません　か。</span>
+                    <span class="text-crimson">ゆっくり　はなして　もらえません　か。</span>
 
                     <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_11"></span></span>
                     <br>
@@ -747,6 +749,20 @@
                     <!-- Tradução dos blocos com underline na cor dos blocos -->
                     <p class="text-japanese">Você não pode falar mais devagar?</p>
                 </li><br>
+
+                <span class="subtitle-crimson">Formalidade nível 2</span>
+
+                <li>
+                    <!-- EXEMPLO 11 -->
+                    <!-- Blocos em Japonês com Tooltip -->
+                    <span class="text-crimson">すみません、もう　すこし　ゆっくり　はなして　もらえます　か。</span>
+
+                    <span class="my-3 text__underlined_block-0 tooltip"><span id="frase_10"></span></span>
+                    <br>
+
+                    <!-- Tradução dos blocos com underline na cor dos blocos -->
+                    <p class="text-japanese">Você pode falar mais devagar?</p>
+                </li><br>                
 
                 <span class="subtitle-crimson">Formalidade nível 3</span>
                 <li>
@@ -794,45 +810,45 @@
         const urlGoogleDrive = 'https://drive.google.com/uc?export=download&id='
 
         const audioData = [{
-                url: urlGoogleDrive + '1qXgoFy2p09f4UKpiyOSefGk_vtyJx4Ga',
+                url: urlGoogleDrive + '1Tp4PVuaEhKYTTejqQSnELsadb40U_sNC',
                 parentId: 'frase_1'
             }, {
-                url: urlGoogleDrive + '1ZBvj_IWVKRdFhzF2XMydQtwwpg8CC15f',
+                url: urlGoogleDrive + '1XKBwt3LgLij3hMKCksuckBGR7O5WrHOV',
                 parentId: 'frase_2'
             }, {
-                url: urlGoogleDrive + '188OA3SzYkkXBePJkel7YawmipOwtL2Jc',
+                url: urlGoogleDrive + '1TjxhrZi_1PNL-oJ49xXYKY_L48nPFdeJ',
                 parentId: 'frase_3'
             },
             {
-                url: urlGoogleDrive + '1aeY1d44AJnBDEjYftFcMKTsAoK2hYv0r',
+                url: urlGoogleDrive + '1st7DkJVMMuZDOcxlrMOw9O3LOPrnb8Du',
                 parentId: 'frase_4'
             }, {
-                url: urlGoogleDrive + '13cJ2D3Ac6uMaVNpiOeqJtihhVc0vbpeF',
+                url: urlGoogleDrive + '1WvVhDbGuwne6kkm3hblpESMIPKB0Cb2N',
                 parentId: 'frase_5'
             }, {
-                url: urlGoogleDrive + '1ctq1vzmiDccVgW1rvjZUWmiNA4Y2I-he',
+                url: urlGoogleDrive + '1A2zHfSYZqqn1a-nje8PEEp4-chcLTPGU',
                 parentId: 'frase_6'
             },
             {
-                url: urlGoogleDrive + '1gXnpF2sNUCsSOr5w7lHI8mDF50_pAqlk',
+                url: urlGoogleDrive + '1-SvrX858eGAky9Ezqkh1mI2H5agyPEb3',
                 parentId: 'frase_7'
             }, {
-                url: urlGoogleDrive + '1NgKVLCGLanD_2NNzqla9mmiPwjldtX8J',
+                url: urlGoogleDrive + '1q5659qnGEzzL_46U_gHZQ9Q28UALhRYv',
                 parentId: 'frase_8'
             }, {
-                url: urlGoogleDrive + '1pHV6eGAxk95T2mpgY3YJ2q455ITwPN9E',
+                url: urlGoogleDrive + '1RdjMVTBMGffASC25ahDfpZyEkik4eQ7Q',
                 parentId: 'frase_9'
             },
             {
-                url: urlGoogleDrive + '1DkzVGMjmwo9HcihJWcEGdkM7yQgLEePD',
+                url: urlGoogleDrive + '1XOeCRAx6LLebGXP30-4-Qds1qUKb12NJ',
                 parentId: 'frase_10'
             },
             {
-                url: urlGoogleDrive + '1DkzVGMjmwo9HcihJWcEGdkM7yQgLEePD',
+                url: urlGoogleDrive + '163XUi1oRIC91SBdxbBNJSap6z0Y5OoqP',
                 parentId: 'frase_11'
             },
             {
-                url: urlGoogleDrive + '1DkzVGMjmwo9HcihJWcEGdkM7yQgLEePD',
+                url: urlGoogleDrive + '1cGUqM1cls3FpVAIjJhPB91fZAOLAcNTV',
                 parentId: 'frase_12'
             }
         ];
