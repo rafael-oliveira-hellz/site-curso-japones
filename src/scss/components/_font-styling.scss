@@ -36,7 +36,7 @@ main>div>div {
 	font-family: 'Noto Serif JP', 'Kaisei Tokumin', serif, 'MS Mincho', Calibri, sans-serif, -apple-system;
 	color: var(--crimson);
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2.75rem;
 	text-shadow: 1px 1px 1px var(--darkGrey2);
 }
 
@@ -77,11 +77,23 @@ ol {
 
 ol.crimson li {
 	color: var(--crimson);
-	font-size: 2rem;
+	font-size: 1.65rem;
+	margin-inline: 1.75em;
 }
 
 ol.crimson li p.text-japanese {
 	color: var(--darkGrey2);
+	font-size: 1.65rem;
+}
+
+ol.crimson li span.text-crimson {
+	color: var(--crimson);
+	font-weight: bold;
+	font-size: 1.65rem;
+}
+
+ol.crimson li i.material-icons {
+	font-size: 2.75rem;
 }
 
 // Responsive Font Style
